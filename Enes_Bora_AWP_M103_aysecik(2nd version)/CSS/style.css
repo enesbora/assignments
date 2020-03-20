@@ -1,0 +1,14 @@
+body {
+    background: #ee7a7a;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px black;
+    padding: 15px;
+    margin: 10px;
+}
+
+#output {
+    background: #5eb4ee;
+    margin: 100px;
+    border: 1px solid #baf378;
+}
