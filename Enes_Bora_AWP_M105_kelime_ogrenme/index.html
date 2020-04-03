@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelime Oyunu</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main>
+        <section id="container">
+            <div id="top-bar">
+                <p class="tb-info">Doğru : <span id="tb-info-true">0</span></p>
+                <p class="tb-info">Yanlış : <span id="tb-info-false">0</span></p>
+                <p class="tb-info">Puan : <span id="tb-info-score"></span></p>
+            </div>
+            <div id="game">
+                <div id="word"></div>
+                <div id="answers-container">
+                    <div class="answers"></div>
+                    <div class="answers"></div>
+                    <div class="answers"></div>
+                    <div class="answers"></div>
+                </div>
+            </div>
+            <div id="game-result" class="result">
+                <div id="result-container">
+                    <p class="gr-text">Oturum tamamlandı.</p>
+                    <p class="gr-text">Skorunuz : <span id="gr-score">0</span></p>
+                    <div id="gr-btn">
+                        <button id="start-game">Yeni Oturum</button>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <script src="./model.js"></script>
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
