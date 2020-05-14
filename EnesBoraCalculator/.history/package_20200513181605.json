@@ -1,0 +1,23 @@
+{
+    "name": "mysupercalculator",
+    "version": "1.0.0",
+    "description": "Multiplicatin subtraction addition division",
+    "main": "app.js",
+    "scripts": {
+        "test": "no test specified"
+    },
+    "keywords": [
+        "calc",
+        "add",
+        "sub",
+        "div",
+        "mul",
+        "calculate",
+        "subtract",
+        "add",
+        "multiply",
+        "divide"
+    ],
+    "author": "Enes Bora",
+    "license": "MIT"
+}

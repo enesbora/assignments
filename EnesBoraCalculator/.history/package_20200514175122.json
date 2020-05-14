@@ -1,0 +1,23 @@
+{
+    "name": "boras-calculator",
+    "version": "0.0.1",
+    "description": "a super calculator",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "calculator",
+        "super",
+        "divition",
+        "subtract",
+        "add",
+        "multiply",
+        "mul",
+        "add",
+        "sub",
+        "div"
+    ],
+    "author": "Enes Bora",
+    "license": "MIT"
+}
