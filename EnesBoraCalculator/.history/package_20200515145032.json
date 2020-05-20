@@ -1,6 +1,6 @@
 {
     "name": "boras-calculator",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "a super calculator",
     "main": "app.js",
     "scripts": {
@@ -18,6 +18,6 @@
         "sub",
         "div"
     ],
-    "author": "Enes Bora",
+    "author": "Enes Bora <boraenes84@gmail.com>",
     "license": "MIT"
 }
