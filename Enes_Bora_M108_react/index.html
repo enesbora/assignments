@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First React Component</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        class Form extends React.Component{ render(){ return (
+        <div>
+            Name <input type="text" /> <br/> Surname <input type="text" /> <br/> Birth Date <input type="date" /> <br/>
+        </div>
+        ); } } ReactDOM.render(
+        <Form/>, document.getElementById('root') );
+
+    </script>
+
+</body>
+
+</html>
