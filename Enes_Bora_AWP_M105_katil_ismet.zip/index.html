@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 105 - OOP - Ismet's -the shooter- logbook</title>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <logbook>
+
+        <div class="container">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header text-center bg-danger text-white">
+                        Customers
+                    </div>
+                    <div class="card-body">
+                        <ul id="customers" class="list-group">
+                            <!-- Customers will be here. -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <!-- Target 1 -->
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <!-- The addresses should be here. They will open when we click on a target. -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <!-- Target 2 -->
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <!-- The addresses should be here. They will open when we click on a target. -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </logbook>
+
+
+    <!-- Faker JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
+    <!-- Models -->
+    <script src="./src/model/Customer.js"></script>
+    <script src="./src/model/Target.js"></script>
+    <!-- Views -->
+    <script src="./src/view/CustomerView.js"></script>
+    <script src="./src/view/TargetView.js"></script>
+    <script src="./src/view/AddressView.js"></script>
+    <!-- Controllers -->
+    <script src="./src/controller/Initializer.js"></script>
+    <script src="./src/controller/CustomerController.js"></script>
+    <script src="./src/controller/TargetController.js"></script>
+    <script src="./src/controller/LocalDataController.js"></script>
+    <!-- App JS -->
+    <script src="./src/app.js"></script>
+</body>
+
+</html>

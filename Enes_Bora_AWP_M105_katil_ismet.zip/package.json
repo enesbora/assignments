@@ -1,0 +1,23 @@
+{
+    "name": "shooter",
+    "version": "1.0.0",
+    "description": "Logbook of Ismet-the shooter-",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "logbook",
+        "faker",
+        "sweetalert",
+        "bootstrap",
+        "npm"
+    ],
+    "author": "Enes BORA",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^4.5.0",
+        "faker": "^4.1.0",
+        "sweetalert2": "^9.13.0"
+    }
+}
